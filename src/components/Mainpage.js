@@ -20,14 +20,7 @@ const Block = styled.div`
     height: 45vh;
 `;
 
-const Contact = styled.div`
-    top: 0;
-    right: 0;
-    position: fixed;
-    padding: 3vh 3vw;
-    font-weight: 800;
-    color: #2259fb;
-`;
+
 
 const LogoWrapper = styled.div`
     display: flex;
@@ -72,23 +65,10 @@ const Scrolldown = styled.div`
     color: #2259fb;
 `;
 
-const Bar = styled.div`
-    height: 15vh;
-    width: 1.5px;
-    bottom: 0;
-    left: 50;
-    position: fixed;
-    background-color: #2259fb;
-    margin-bottom: 10px;
-    opacity: 0.5;
 
-`;
 const Mainpage = () => {
     return(
         <MainpageBlock>
-            <Contact>
-                Contact
-            </Contact>
             <Block/>
             <LogoWrapper>
                 <CodeDeliverySpin/>
@@ -96,8 +76,7 @@ const Mainpage = () => {
             </LogoWrapper>
              <Scrolldown>
                 Scrolldown
-            </Scrolldown> 
-            <Bar/> 
+            </Scrolldown>             
         </MainpageBlock>
     );
 }
