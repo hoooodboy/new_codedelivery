@@ -8,7 +8,7 @@ import MariadbLogo from '../images/mariadb.png';
 import FirebaseLogo from '../images/firebase.png';
 
 const DevelopSpecBlock = styled.div`
-  height: 90vh;
+  height: 100vh;
   padding: 15vh 0;
   background: #fff; 
   margin-top: 20px;
