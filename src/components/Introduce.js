@@ -4,7 +4,7 @@ import Aos from "aos"
 import "aos/dist/aos.css";
 import IntroduceImg from '../images/introduce.png';
 
-const IntroduceBackgroundBlock_1 = styled.div`
+const IntroduceBackgroundBlock = styled.div`
   height: 90vh;
   padding: 15vh 0;
   background: #333; 
@@ -12,21 +12,6 @@ const IntroduceBackgroundBlock_1 = styled.div`
   display: flex;
   flex-direction:column;
   align-items: center;
-`;
-
-const IntroduceBackgroundBlock_2 = styled(IntroduceBackgroundBlock_1)`
-  background: #fff;
-
-`;
-
-const IntroduceBackgroundBlock_3 = styled(IntroduceBackgroundBlock_1)`
-  background: #000;
-
-`;
-
-const IntroduceBackgroundBlock_4 = styled(IntroduceBackgroundBlock_1)`
-  background: #333;
-
 `;
 
 const Name = styled.div`
@@ -80,7 +65,7 @@ const FlashExample = () => {
     return (
       <div>
         <div data-aos="fade-up" data-aos-duration="1000" >
-	        <IntroduceBackgroundBlock_1>
+	        <IntroduceBackgroundBlock>
             <Name>
               Code_Delivery
             </Name>
@@ -98,22 +83,7 @@ const FlashExample = () => {
             웹프로그래밍, 무선통신, 시스템 프로그래밍, 임베디드 시스템 뿐만 아니라 <br/> 블록체인, 머신러닝, 3D 모션그래픽, 전자정부프레임워크 등<br/> 다양한 요구사항을 모두 수용할 수 있습니다.           
             </Explain>
             <IntroduceImgBlock/>
-          </IntroduceBackgroundBlock_1>
-        </div>
-        <div data-aos="fade-up" data-aos-duration="1000" >
-	        <IntroduceBackgroundBlock_2>
-s
-          </IntroduceBackgroundBlock_2>
-        </div>
-        <div data-aos="fade-up" data-aos-duration="1000" >
-	        <IntroduceBackgroundBlock_3>
-s
-          </IntroduceBackgroundBlock_3>
-        </div>
-        <div data-aos="fade-up" data-aos-duration="1000" >
-	        <IntroduceBackgroundBlock_4>
-s
-          </IntroduceBackgroundBlock_4>
+          </IntroduceBackgroundBlock>
         </div>
       </div>
     );
