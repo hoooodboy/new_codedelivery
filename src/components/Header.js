@@ -1,14 +1,16 @@
-import React from 'react';
+import React from "react";
 import styled from 'styled-components';
 import HeaderLogo from '../images/headerlogo.png';
 
+
 const HeaderBlock = styled.div`
+    width: 94vw;
     padding: 1vh 3vw;
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    position: fixed;
     top: 0;
 `;
 
@@ -20,21 +22,26 @@ const Logo = styled.div`
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center; 
+    cursor: pointer;
 `;
 
 const Contact = styled.div`
     font-size: 2vh;
     font-weight: 600;
     color: #2259fb;
+    cursor: pointer;
 `;
+
 const Header = () => {
     return (
-        <HeaderBlock>
-            <Logo/>
-            <Contact>
-                Contact
-            </Contact>
-        </HeaderBlock>
+        <>
+            <HeaderBlock>
+                <Logo/>
+                <Contact>
+                    Contact
+                </Contact>
+            </HeaderBlock>
+        </>
     );
 }
 
