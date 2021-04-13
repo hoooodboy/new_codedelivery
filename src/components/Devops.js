@@ -33,7 +33,7 @@ const Say = styled.div`
 const SmallSay = styled.div`
   font-size: 14px;
   font-weight: 600;
-  color: #6e6e6e;
+  color: #adadad;
   margin-bottom: 5vh;
 
 `;
@@ -43,7 +43,7 @@ const Explain = styled.div`
   text-align: center;
   width: 60vw;
   font-size: 16px;
-  color: #adadad;
+  color: #797979;
   font-weight: 500;
 `;
 
@@ -59,6 +59,8 @@ const DevopsImgBlock = styled.div`
     background-position: center; 
     cursor: pointer;
 `;
+
+
 
 const Devops = () => {
     return (

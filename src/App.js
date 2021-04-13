@@ -3,6 +3,9 @@ import Mainpage from './components/Mainpage';
 import Header from './components/Header';
 import Introduce from './components/Introduce';
 import Devops from './components/Devops';
+import Communicate from './components/ Communicate';
+import DevelopSpec from './components/DevelopSpec';
+import Footer from './components/Footer';
 
 const App = () => {
   return(
@@ -11,6 +14,9 @@ const App = () => {
       <Mainpage/>
       <Introduce/>
       <Devops/>
+      <Communicate/>
+      <DevelopSpec/>
+      <Footer/>
     </>
   )
 }
