@@ -13,6 +13,7 @@ const HeaderBlock = styled.div`
     position: fixed;
     top: 0;
     z-index: 1;
+    background: #fff;
 `;
 
 const Logo = styled.div`
