@@ -37,14 +37,12 @@ const Contact = styled.div`
 
 const Header = () => {
     return (
-        <>
-            <HeaderBlock>
-                <Logo/>
-                <Contact>
-                    Contact
-                </Contact>
-            </HeaderBlock>
-        </>
+        <HeaderBlock>
+            <Logo/>
+            <Contact>
+                Contact
+            </Contact>
+        </HeaderBlock>
     );
 }
 

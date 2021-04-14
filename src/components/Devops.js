@@ -12,7 +12,6 @@ const DevopsBlock = styled.div`
   justify-content: center;
 `;
 
-
 const Name = styled.div`
   color: #000;
   font-weight: 200;
@@ -26,7 +25,6 @@ const Say = styled.div`
   font-size: 32px;
   text-align: center;
   margin-bottom: 5vh;
-
 `;
 
 const SmallSay = styled.div`
@@ -34,7 +32,6 @@ const SmallSay = styled.div`
   font-weight: 600;
   color: #adadad;
   margin-bottom: 5vh;
-
 `;
 
 const Explain = styled.div`
@@ -59,14 +56,11 @@ const DevopsImgBlock = styled.div`
     cursor: pointer;
 `;
 
-
-
 const Devops = () => {
     return (
         <div>
         <div data-aos="fade-up" data-aos-duration="1000" >
         <DevopsBlock>
-
             <Name>
               Code_Delivery
             </Name>
@@ -86,9 +80,7 @@ const Devops = () => {
             <DevopsImgBlock/>
             </DevopsBlock>
         </div>
-        
       </div>
-
     );
 }
 

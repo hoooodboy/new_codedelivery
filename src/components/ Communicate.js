@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-
 import SlackLogo from '../images/slacklogo.png';
 import ZoomLogo from '../images/zoomlogo.png';
 import XdLogo from '../images/xdlogo.png';
@@ -60,7 +59,6 @@ const Content = styled.div`
     justify-content:center;
     align-items: center;
     font-weight: 600;
-
 `;
 
 const SlackImg = styled.div`
@@ -112,7 +110,6 @@ const Communicate = () => {
                 </TableWrappr>
             </CommunicateBackgroundBlock>
         </div>
-
     );
 }
 

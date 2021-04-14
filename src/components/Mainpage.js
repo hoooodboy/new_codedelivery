@@ -20,8 +20,6 @@ const Block = styled.div`
     height: 45vh;
 `;
 
-
-
 const LogoWrapper = styled.div`
     display: flex;
     flex-direction: column;
@@ -49,7 +47,6 @@ const CodeDeliverySpin = styled.div`
     transform-origin: 50% 50%;
 `;
 
-
 const SpanLogo = styled(MainpageBlock)`
     width: 300px;
     height: 100px;
@@ -64,7 +61,6 @@ const Scrolldown = styled.div`
     font-weight: 800;
     color: #2259fb;
 `;
-
 
 const Mainpage = () => {
     return(

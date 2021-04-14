@@ -4,8 +4,8 @@ import ReactLogo from '../images/react.png';
 import NodeLogo from '../images/nodejs.png';
 import PhpLogo from '../images/php.png';
 import MysqlLogo from '../images/mysql.png';
-import MariadbLogo from '../images/mariadb.png';
-import FirebaseLogo from '../images/firebase.png';
+import AwsLogo from '../images/aws.png';
+import MongoDbLogo from '../images/mongodb.png';
 
 const DevelopSpecBlock = styled.div`
   height: 100vh;
@@ -80,7 +80,6 @@ const Content = styled.div`
 
 const CareerTable = styled.div`
     padding: 5vh 0;
-
 `;
 
 const ThWrapper = styled.div`
@@ -107,7 +106,6 @@ const Td =styled.div`
     padding: 1vh 2vw;
 `;
 
-
 const ReactImg = styled.div`
     width: 100%;
     height: 100%;
@@ -131,11 +129,11 @@ const MysqlImg = styled(ReactImg)`
 `;
 
 const FirebaseImg = styled(ReactImg)`
-    background-image: url(${FirebaseLogo});
+    background-image: url(${MongoDbLogo});
 `;
 
 const MariadbImg = styled(ReactImg)`
-    background-image: url(${MariadbLogo});
+    background-image: url(${AwsLogo});
 `;
 
 const DevelopSpec = () => {

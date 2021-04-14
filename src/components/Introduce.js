@@ -27,7 +27,6 @@ const Say = styled.div`
   font-size: 32px;
   text-align: center;
   margin-bottom: 5vh;
-
 `;
 
 const SmallSay = styled.div`
@@ -66,7 +65,6 @@ const FlashExample = () => {
     Aos.init({});
   }, [])
     return (
-      <div>
         <div data-aos="fade-up" data-aos-duration="1000" >
 	        <IntroduceBackgroundBlock>
             <Name>
@@ -88,9 +86,7 @@ const FlashExample = () => {
             <IntroduceImgBlock/>
           </IntroduceBackgroundBlock>
         </div>
-      </div>
     );
-  
 }
 
 export default FlashExample;

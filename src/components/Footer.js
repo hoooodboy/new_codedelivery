@@ -4,7 +4,6 @@ import styled from 'styled-components';
 const FooterBcakgroundBlock = styled.div`
   padding: 3vh 0;
   background: #f4f4f4; 
-
 `;
 
 const FooterBlock = styled.div`
