@@ -6,7 +6,6 @@ const DevopsBlock = styled.div`
   height: 90vh;
   padding: 15vh 0;
   background: #fff; 
-  margin-top: 20px;
   display: flex;
   flex-direction:column;
   align-items: center;

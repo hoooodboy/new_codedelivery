@@ -14,6 +14,7 @@ const HeaderBlock = styled.div`
     top: 0;
     z-index: 1;
     background: #fff;
+    opacity: 0.9;
 `;
 
 const Logo = styled.div`

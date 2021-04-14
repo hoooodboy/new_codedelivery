@@ -140,7 +140,7 @@ const MariadbImg = styled(ReactImg)`
 
 const DevelopSpec = () => {
     return (
-        <div data-aos="fade-top" data-aos-duration="1000" >
+        <div data-aos="fade-up" data-aos-duration="1000" >
             <DevelopSpecBlock>
                 <Say>코드딜리버리 <br/> 개발스펙</Say>
                 <Explain>

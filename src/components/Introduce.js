@@ -8,7 +8,6 @@ const IntroduceBackgroundBlock = styled.div`
   height: 90vh;
   padding: 15vh 0;
   background: #333; 
-  margin-top: 20px;
   display: flex;
   flex-direction:column;
   align-items: center;

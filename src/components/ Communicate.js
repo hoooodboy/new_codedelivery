@@ -9,7 +9,6 @@ const CommunicateBackgroundBlock = styled.div`
   height: 50vh;
   padding: 15vh 0;
   background: #f4f4f4; 
-  margin-top: 20px;
   display: flex;
   flex-direction:column;
   align-items: center;
