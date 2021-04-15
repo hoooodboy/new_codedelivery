@@ -89,8 +89,8 @@ const Communicate = () => {
             <CommunicateBackgroundBlock>
                 <Say>멀리가려면 <br/> 함께가라</Say>
                 <Explain>
-                    모두가 같은 곳을 보고 함께 간다면 얼마나 좋을까요?<br/>
-                    세컨드스페이스는 상호 오해를 줄이고 더 긴밀히 협력할 수 있도록<br/>
+                    모두가 같은 곳을 보고 함께 가는것만큼 중요한 일은 없습니다.<br/>
+                    코드딜리버리는 상호 오해를 줄이고 더 긴밀히 협력할 수 있도록<br/>
                      커뮤니케이션에 많은 노력을 기울이고 있습니다.<br/>
                 </Explain>
                 <Explain>
