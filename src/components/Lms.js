@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import LmsLogo from '../images/lms.png';
+import LmsImg from '../images/lms.png';
 
 const LmsBlock = styled.div`
  height: 100vh;
@@ -42,12 +42,23 @@ const LmsLogoBlock = styled.div`
     min-width: 250px;
     min-height: 250px;
     max-width: 500px;
-    background-image: url(${LmsLogo});
+    display: flex;
+    justify-content: center;
+`;
+
+const LmsLogo = styled.div`
+    width: 100%;
+    height: 100%;
+    min-width: 250px;
+    min-height: 250px;
+    max-width: 500px;
+    background-image: url(${LmsImg});
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center; 
     cursor: pointer;
-    `;
+    margin: 0 25px;
+`;
 
 const Lms = () => {
     return (
@@ -64,7 +75,9 @@ const Lms = () => {
                 HRD 자체 시스템과의 통합 가능성을 열어두고 개발하여<br/> 
                 확장성 있는 솔루션으로써 경쟁력이 있다고 판단됩니다.<br/>
                 </Explain>
-                <LmsLogoBlock/>
+                <LmsLogoBlock>
+                    <LmsLogo/>
+                </LmsLogoBlock>
             </LmsBlock>
         </div>
     );
