@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import ReactLogo from '../images/react.png';
 import NodeLogo from '../images/nodejs.png';
-import PhpLogo from '../images/php.png';
+import Pythonlogo from '../images/python.png';
 import MysqlLogo from '../images/mysql.png';
 import AwsLogo from '../images/aws.png';
 import MongoDbLogo from '../images/mongodb.png';
@@ -117,7 +117,7 @@ const ReactImg = styled.div`
 `;
 
 const PhpImg = styled(ReactImg)`
-    background-image: url(${PhpLogo});
+    background-image: url(${Pythonlogo});
 `;
 
 const NodeImg = styled(ReactImg)`

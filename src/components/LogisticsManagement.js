@@ -5,7 +5,7 @@ import LogisticsManagementLogo from '../images/LogisticsManagement.png';
 const LogisticsManagementBlock = styled.div`
  height: 100vh;
   padding: 15vh 0;
-  background: #fff; 
+  background: #f4f4f4; 
   display: flex;
   flex-direction:column;
   align-items: center;

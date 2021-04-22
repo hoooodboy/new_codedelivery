@@ -5,7 +5,7 @@ import LmsLogo from '../images/lms.png';
 const LmsBlock = styled.div`
  height: 100vh;
   padding: 15vh 0;
-  background: #f4f4f4; 
+  background: #fff; 
   display: flex;
   flex-direction:column;
   align-items: center;
@@ -61,9 +61,8 @@ const Lms = () => {
                 맞춘 훈련기관 전산화 시스템을 구성할 예정입니다.<br/>
                 </Explain>
                 <Explain>
-                타사에서 제공하는 솔루션이 있으나, 시스템 불안정으로 <br/>
-                인한 실사 가 어렵고 90년대 수준의 UI/UX를 제공하여<br/>
-                타사 대비 안정성 및 UI/UX 측면의 경쟁력이 있다고 판단됩니다<br/>
+                HRD 자체 시스템과의 통합 가능성을 열어두고 개발하여<br/> 
+                확장성 있는 솔루션으로써 경쟁력이 있다고 판단됨<br/>
                 </Explain>
                 <LmsLogoBlock/>
             </LmsBlock>

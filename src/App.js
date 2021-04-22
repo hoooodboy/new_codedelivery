@@ -17,7 +17,7 @@ const App = () => {
       <Introduce/>
       <Lms/>
       <LogisticsManagement/>
-      {/* <Devops/> */}
+      <Devops/>
       <Communicate/>
       <DevelopSpec/>
       <Footer/>

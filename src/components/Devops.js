@@ -66,7 +66,7 @@ const Devops = () => {
             </Name>
             <Say>
             코드딜리버리의<br/>
-             데브옵스
+            맞춤형 솔루션 제작
             </Say>
             <SmallSay>
             구독형 소프트웨어 솔루션
