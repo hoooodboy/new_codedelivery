@@ -53,17 +53,16 @@ const Lms = () => {
     return (
         <div data-aos="fade-up" data-aos-duration="1000" >
             <LogisticsManagementBlock>
-                <Say>온라인 학습관리 <br/> 시스템 개발</Say>
-                <SmallSay>고용노동부 훈련기관 온라인 학습관리 시스템 개발</SmallSay>
+                <Say>해외 물류관리<br/> 맞춤형 해외배송대행</Say>
+                <SmallSay>맞춤형 해외배송대행 및 해외 물류관리(3PL)</SmallSay>
                 <Explain>
-                당사에서 제공하고자 하는 솔루션은, 학습관리 솔루션을 넘어 <br/>
-                기관평가와 이수자평가까지 전산화 시켜 고용노동부 가이드라인에 <br/>
-                맞춘 훈련기관 전산화 시스템을 구성할 예정입니다.<br/>
+                코드딜리버리에서 제공하고자하는 솔루션은 쉽게 사용할 수 있는 <br/>
+                관리시스템입니다. 컨설팅을 포함한 EDI 시스템, 물류 시스템 전반을 <br/>
+                전산화하여ㄱ관리할 수 있는 통합 해외배송대행 솔루션을 제공하고자 합니다.  <br/>
                 </Explain>
                 <Explain>
-                타사에서 제공하는 솔루션이 있으나, 시스템 불안정으로 <br/>
-                인한 실사 가 어렵고 90년대 수준의 UI/UX를 제공하여<br/>
-                타사 대비 안정성 및 UI/UX 측면의 경쟁력이 있다고 판단됩니다<br/>
+                시스템 전반에 대한 높은 수준의 이해를 가진 전문가와 함께하며<br/>
+                r써드파티 물류관리 시스템 API 연동과 역직구에 대한 솔루션도 제공할 예정입니다.<br/>
                 </Explain>
                 <LogisticsManagementLogoBlock/>
             </LogisticsManagementBlock>

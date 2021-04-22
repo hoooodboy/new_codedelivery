@@ -62,7 +62,7 @@ const Lms = () => {
                 </Explain>
                 <Explain>
                 HRD 자체 시스템과의 통합 가능성을 열어두고 개발하여<br/> 
-                확장성 있는 솔루션으로써 경쟁력이 있다고 판단됨<br/>
+                확장성 있는 솔루션으로써 경쟁력이 있다고 판단됩니다.<br/>
                 </Explain>
                 <LmsLogoBlock/>
             </LmsBlock>
