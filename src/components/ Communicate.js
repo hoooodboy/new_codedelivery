@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import SlackLogo from '../images/slacklogo.png';
-import ZoomLogo from '../images/zoomlogo.png';
-import XdLogo from '../images/xdlogo.png';
+import Logo from '../images/typo.png';
+// import SlackLogo from '../images/slacklogo.png';
+// import ZoomLogo from '../images/zoomlogo.png';
+// import XdLogo from '../images/xdlogo.png';
 
 const CommunicateBackgroundBlock = styled.div`
   height: 50vh;
@@ -31,63 +32,75 @@ const Explain = styled.div`
   font-weight: 500;
 `;
 
-const TableWrappr = styled.div`
-    background: #fff;
-`;
-
-const ContentWrapper = styled.div`
-    width: 60vw;
-    height: 10vh;
-    max-width: 600px;
-    min-width: 330px;
-    max-height: 74px;
-    min-height: 41px;
-    display: flex;
-    margin: 0;
-`;
-
-const Content = styled.div`
-    width: 20vw;
-    height: 10vh;
-    max-width: 200px;
-    min-width: 110px;
-    max-height: 74px;
-    min-height: 41px;
-    border: 1px solid #eee;
-    margin: 0;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    font-weight: 600;
-`;
-
-const SlackImg = styled.div`
-    width: 20vw;
-    height: 40vh;
-    max-width: 80px;
-    min-width: 30px;
-    max-height: 35px;
-    min-height: 21px;
-    background-image: url(${SlackLogo});
+const LogoBlock = styled.div`
+    width: 100%;
+    height: 100%;
+    min-width: 250px;
+    min-height: 250px;
+    max-width: 1000px;
+    background-image: url(${Logo});
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center; 
-    cursor: pointer;
-`;
+    cursor: pointer;`;
 
-const ZoomImg = styled(SlackImg)`
-    background-image: url(${ZoomLogo});
-`;
+// const TableWrappr = styled.div`
+//     background: #fff;
+// `;
 
-const XdImg = styled(SlackImg)`
-    background-image: url(${XdLogo});
-`;
+// const ContentWrapper = styled.div`
+//     width: 60vw;
+//     height: 10vh;
+//     max-width: 600px;
+//     min-width: 330px;
+//     max-height: 74px;
+//     min-height: 41px;
+//     display: flex;
+//     margin: 0;
+// `;
+
+// const Content = styled.div`
+//     width: 20vw;
+//     height: 10vh;
+//     max-width: 200px;
+//     min-width: 110px;
+//     max-height: 74px;
+//     min-height: 41px;
+//     border: 1px solid #eee;
+//     margin: 0;
+//     display: flex;
+//     justify-content:center;
+//     align-items: center;
+//     font-weight: 600;
+// `;
+
+// const SlackImg = styled.div`
+//     width: 20vw;
+//     height: 40vh;
+//     max-width: 80px;
+//     min-width: 30px;
+//     max-height: 35px;
+//     min-height: 21px;
+//     background-image: url(${SlackLogo});
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     background-position: center; 
+//     cursor: pointer;
+// `;
+
+// const ZoomImg = styled(SlackImg)`
+//     background-image: url(${ZoomLogo});
+// `;
+
+// const XdImg = styled(SlackImg)`
+//     background-image: url(${XdLogo});
+// `;
 
 const Communicate = () => {
     return (
         <div data-aos="fade-up" data-aos-duration="1000" >
             <CommunicateBackgroundBlock>
-                <Say>멀리가려면 <br/> 함께가라</Say>
+                <Say>멀리가려면 <br/> 함께하라</Say>
                 <Explain>
                     모두가 같은 곳을 보고 함께 가는것만큼 중요한 일은 없습니다.<br/>
                     코드딜리버리는 상호 오해를 줄이고 더 긴밀히 협력할 수 있도록<br/>
@@ -96,7 +109,8 @@ const Communicate = () => {
                 <Explain>
                     우리는 고객의 꿈에 깊이 공감하고 경청하며 토론하고 존중합니다.
                 </Explain>
-                <TableWrappr>
+                <LogoBlock/>
+                {/* <TableWrappr>
                     <ContentWrapper>
                         <Content><SlackImg></SlackImg></Content>
                         <Content><ZoomImg></ZoomImg></Content>
@@ -107,7 +121,7 @@ const Communicate = () => {
                         <Content>...</Content>
                         <Content>...</Content>
                     </ContentWrapper>
-                </TableWrappr>
+                </TableWrappr> */}
             </CommunicateBackgroundBlock>
         </div>
     );
