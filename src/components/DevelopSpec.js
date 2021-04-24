@@ -164,19 +164,19 @@ const DevelopSpec = () => {
                     </ThWrapper>
                     <ThWrapper>
                     <Th>Back-End</Th>
-                        <Td>PHP</Td>
                         <Td>Node.js</Td>
+                        <Td>SQL</Td>
                     </ThWrapper>
                     <ThWrapper>
                         <Th>DB</Th>
-                            <Td>MariaDB</Td>
+                            <Td>MongoDB</Td>
                             <Td>MySQL</Td>
                     </ThWrapper>
                     <ThWrapper>
                         <Th>APP</Th>
                             <Td>React Native</Td>
-                            <Td>Object-C</Td>
-                            <Td>Java</Td>
+                            <Td>Swift</Td>
+                            <Td>Kotlin</Td>
                     </ThWrapper>
                 </Table>
                 </CareerTable>
