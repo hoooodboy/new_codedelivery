@@ -32,7 +32,7 @@ const DevelopSpec = () => {
             <FooterBlock>
                 <CompanyName>코드딜리버리</CompanyName>
                 <Content>대표: 이승민, 한우영</Content>
-                <Content>주소: 서울특별시 강난구 삼성로 417, 상가동 204-1 코드딜리버리(대치동, 대치포스코더샾아파트)</Content>
+                <Content>주소: 서울특별시 강남구 삼성로 417, 상가동 204-1 코드딜리버리(대치동, 대치포스코더샾아파트)</Content>
                 {/* <Content>연락처: 010-0000-0000</Content> */}
                 <Content>사업자등록번호: 576-15-01489</Content>
             </FooterBlock>
